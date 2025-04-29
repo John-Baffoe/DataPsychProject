@@ -1,0 +1,21 @@
+[project]
+name = "project"
+version = "0.1.0"
+description = "Project to investigate the key predictors that influences the reading achievement of South Africa."
+authors = [
+    {name = "John Baffoe", email = "jbaffoe@uwm.edu"}
+]
+dependencies = [
+    "pandas",
+    "statsmodels",
+    "matplotlib",
+    "seaborn",
+    "scipy"
+]
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+
+
